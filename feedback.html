@@ -45,14 +45,11 @@
         <a href="#" class="nav-link text-success" aria-current="page">logo image</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link text-success" aria-current="page">Trang chủ</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-success" aria-current="page">Chuyển đổi </a>
+        <a href="#" class="nav-link text-success" aria-current="page">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-success " data-bs-toggle="dropdown" href="#" role="button"
-          aria-haspopup="true" aria-expanded="false">Dịch vụ khác</a>
+          aria-haspopup="true" aria-expanded="false">Other</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
@@ -75,9 +72,12 @@
   </header>
   <main>
     <div class="col-md-12 row bg-info">
-      <div class=" col-md-6 bg-primary " style="height: 600px;">
+      <div class=" col-md-6 bg-light " style="height: 600px;">
+        <textarea placeholder="Hãy nói thật to, rõ chữ để chữ được hiển thị" class=" col-md-12 " id="voice"></textarea>
+        <button id="start-recognition">Bắt đầu nói</button>
+        <button id="stop-recognition" disabled>Ngưng nói</button>
       </div>
-      <div class=" col-md-6 bg-warning"></div>
+      <div class=" col-md-6 bg-light"></div>
     </div>
     <div></div>
   </main>
